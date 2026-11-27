@@ -7,10 +7,10 @@
   "author": "Shivraj Medical",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder --win nsis"
+    "build": "electron-builder --win nsis--ia32"
   },
   "devDependencies": {
-    "electron": "^33.2.0",
+    "electron": "^22.3.27",
     "electron-builder": "^25.1.8"
   },
   "build": {
