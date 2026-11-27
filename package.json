@@ -1,0 +1,29 @@
+{
+  "name": "shivraj-medical",
+  "productName": "Shivraj Medical",
+  "version": "1.0.0",
+  "description": "Shivraj Medical - billing, stock and H/H1 register",
+  "main": "main.js",
+  "author": "Shivraj Medical",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.shivraj.medical",
+    "productName": "Shivraj Medical",
+    "files": ["main.js", "app/**/*", "package.json"],
+    "win": { "target": "nsis" },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Shivraj Medical"
+    }
+  }
+}

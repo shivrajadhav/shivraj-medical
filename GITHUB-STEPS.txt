@@ -1,0 +1,9 @@
+GET THE .EXE WITHOUT INSTALLING ANYTHING (free)
+1. Go to github.com and create a free account.
+2. Click + (top right) > New repository. Name: shivraj-medical. Click Create repository.
+3. Click "uploading an existing file". UNZIP this zip on your PC first, then drag ALL
+   the files and folders inside it into the page (include the hidden ".github" folder).
+   Click Commit changes.
+4. Click the "Actions" tab. A build starts by itself (about 5 minutes).
+5. When it shows a green tick, click it, scroll to "Artifacts" and download
+   "Shivraj-Medical-Installer". Unzip it and run the .exe.
